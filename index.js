@@ -40,7 +40,7 @@ app.post('/api/ipn', async (req, res) => {
           SOURCE: 'Autodesk App Store',
           APP_ID: appId
         },
-        listIds: [2], // Replace with your Brevo Contact List ID
+        listIds: [5], // Replace with your Brevo Contact List ID
         updateEnabled: true
       },
       {
